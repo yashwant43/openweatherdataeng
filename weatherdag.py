@@ -51,7 +51,7 @@ def transform_load_data(task_instance, filename):
                         }
     transformed_data_list = [transformed_data]
     df_data = pd.DataFrame(transformed_data_list)
-    aws_credentials = {"key": "ASIAR4DZVAQOF3VKJGEI", "secret": "Bl+w2C1OuV/KjcC8fdkqO5xSgpgQq8xkRKCLfVXU", "token": "FwoGZXIvYXdzEO3//////////wEaDFpRBu2kujMy/jCxnyKCAYqLrnSUTbKI0KTLuFeF7OsDmkF442v0DBmpdnzNVGZlYYatwhXDYzfWDTqvdoAxNLQN6sdvGbIyO2QRRRJe9Kp2jfo3V0q3PzZJ8fbrZ4L3eILAFq+/9/wwcBglg8GQOxWHdGBeBfHcNwnQr73LalEeWGiALArphCFwl9MjjbZPLv8os4HBqgYyKKa7XArNiW+lRtfmp4WNvfpWPaDmSvMJHuZBPUeBmM70Hz+CH1a3YqM="}
+    
 
     # now = datetime.now()
     # dt_string = now.strftime("%d%m%Y%H%M%S")
